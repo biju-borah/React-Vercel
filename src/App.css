@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+/**Scrollbar**/
+::-webkit-scrollbar {
+  width: 1vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar-track {
+  background: var(--theme1-100);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar-thumb {
+	border-radius: 3vh;
+	background: var(--theme4-100);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/**Root Variables**/
+:root {
+
+  --navbar-height-pc : 9vh;
+
+  --footer-height-pc : 20vh;
+  --footer-height-mob : 40vh;
+  
+  --theme1-100: #2c2f33;
+  --theme2-100: #f8f8f8;
+  --theme2-080: rgba(248, 248, 248, 0.80);
+  --theme3-100: #2A2D32;
+  --theme4-100: #8135f3;
+  --theme4-080: rgba(129, 53, 243, 0.80);
+  --theme4-070: rgba(129, 53, 243, 0.70);
+  --theme4-060: rgba(129, 53, 243, 0.60);
+  --theme5-100: #44484e;
+  --theme6-100: #3c3f44;
+
+
+  /**SNS Colors**/
+  --lin-color1: #2867B2;
+  --fb-color1: #1877f2; 
+  --insta-color1: #c32aa3; 
+  --gmail-color1: #ea4335;
+  --whatsapp-color1: #25D366;
+  --github-color1 : #f5f5f5f5;
+}
+
+/**Apply For All**/
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--theme2-100);
+}
+
+a.btn {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span.bold {
+  color: var(--theme4-100) !important;
+  font-weight: bolder;
 }
