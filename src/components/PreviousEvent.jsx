@@ -48,8 +48,8 @@ function PreviousEvent() {
                                         <p className="card-text" style={{textAlign:"justify",fontSize:"0.9rem"}}>{result.short}</p>
                                     <div className="d-flex justify-content-between align-items-center">
                                         <div className="btn-group">
-                                            {/* <Link to={result.to} type="button" className="btn btn-outline-dark" style={{fontVariant: "small-caps",color:"black"}}>View</Link> */}
-                                            <button type="button" className="btn btn-outline-dark" onClick={()=>direct(result.to)} style={{fontVariant: "small-caps"}}>View</button>
+                                            <a href={result.to} className="btn btn-outline-dark" style={{fontVariant: "small-caps",color:"black"}}>View</a>
+                                            {/* <button type="button" className="btn btn-outline-dark" onClick={()=>direct(result.to)} style={{fontVariant: "small-caps"}}>View</button> */}
                                         </div>
                                         <small className="text-muted">{result.date}</small>
                                     </div>
