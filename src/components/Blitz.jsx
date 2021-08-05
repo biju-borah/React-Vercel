@@ -9,7 +9,7 @@ function Blitz() {
             </div>
             <div class="row no-gutters">
             <div class="col-md-1"></div>
-            <div class="col-md-4" style={{alignSelf: "center",padding:"0 30px"}}>
+            <div class="col-md-4 mt-3 mt-lg-0 mt-md-0" style={{alignSelf: "center",padding:"0 30px"}}>
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -18,6 +18,8 @@ function Blitz() {
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
                     </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -37,6 +39,12 @@ function Blitz() {
                       </div>
                       <div class="carousel-item">
                         <img src="img/6.jpeg" class="d-block w-100" alt="..."/>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/7.jpeg" class="d-block w-100" alt="..."/>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/8.jpeg" class="d-block w-100" alt="..."/>
                       </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
