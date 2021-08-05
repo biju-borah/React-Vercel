@@ -1,7 +1,18 @@
 import React from 'react'
 import "./UpcomingEvent.css";
+import Swal from 'sweetalert2'
+
 
 function UpcomingEvent() {
+
+    function opensweetalert()
+    {
+    Swal.fire({
+      title: 'Oops !',
+      text: "This button will start functioning soon !",
+      type: 'info'
+      })
+    }
 
     function Expand(index) {
         var buttons = document.getElementsByClassName("expand" + index)
@@ -240,7 +251,7 @@ function UpcomingEvent() {
                                     >
                                         Show less
                                     </button>
-                                    <button className="btn btn-outline-dark">Register Now</button>
+                                    <button className="btn btn-outline-dark" onClick={opensweetalert}>Register Now</button>
                                 </div>
                                 <div className="col-md-1"></div>
                             </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Blitz from '../Blitz'
-import Result from '../Result'
+import PreviousEvent from '../PreviousEvent'
 import Timer from '../Timer'
 import UpcomingEvent from '../UpcomingEvent'
 
@@ -10,7 +10,7 @@ function Event() {
         <Timer/>
         <Blitz/>
         <UpcomingEvent/>
-        <Result/>
+        <PreviousEvent/>
         </>
     )
 }
