@@ -1,4 +1,4 @@
-following:
+Fork the repository and run the following:
 ```
 npm i
 npm start
