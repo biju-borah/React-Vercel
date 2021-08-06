@@ -22,7 +22,7 @@ function PreviousEvent() {
             index: "2",
             img : "img/udevega.png",
             Name: "Udevega",
-            date: "December, 2021",
+            date: "December, 2020",
             to:"/udevega",
             short: <>Freshers Week was conducted under the banner of Electra Society by the second year students of Electrical Department.<br /></>,
         }
@@ -48,8 +48,8 @@ function PreviousEvent() {
                                         <p className="card-text" style={{textAlign:"justify",fontSize:"0.9rem"}}>{result.short}</p>
                                     <div className="d-flex justify-content-between align-items-center">
                                         <div className="btn-group">
-                                            <a href={result.to} className="btn btn-outline-dark" style={{fontVariant: "small-caps",color:"black"}}>View</a>
-                                            {/* <button type="button" className="btn btn-outline-dark" onClick={()=>direct(result.to)} style={{fontVariant: "small-caps"}}>View</button> */}
+                                            {/* <a href={result.to} className="btn btn-outline-dark" style={{fontVariant: "small-caps",color:"black"}}>View</a> */}
+                                            <button type="button" className="btn btn-outline-dark" onClick={()=>direct(result.to)} style={{fontVariant: "small-caps"}}>View</button>
                                         </div>
                                         <small className="text-muted">{result.date}</small>
                                     </div>

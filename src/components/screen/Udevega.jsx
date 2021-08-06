@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 function Udevega() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     const Results = [
         {
             index: "1",
@@ -62,8 +67,8 @@ function Udevega() {
             index: "8",
             img: "img/U7.jpg",
             Name: "MR. & MRS. UDVEGA",
-            short: <><br/>Mr Udvega - Tanmay Tripathy<br/>
-            Mrs Udvega - Bishwashri Roy</>
+            short: <>Mr Udvega - Tanmay Tripathy<br/>
+            Mrs Udvega - Bishwashri Roy<br/><br/></>
         },
         {
             index: "9",

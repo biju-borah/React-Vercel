@@ -1,14 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 function PowerSurge() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     const Results = [
         {
             index: "1",
             img: "img/P1.jpg",
             Name: "ANDROID ELECTRATHON",
-            short: <><br/>1st- Nikita Khapate<br/>
-            2nd- Biju Borah<br /></>
+            short: <>1st- Nikita Khapate<br/>
+            2nd- Biju Borah<br /><br/></>
         },
         {
             index: "2",
