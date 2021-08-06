@@ -67,8 +67,8 @@ function Udevega() {
             index: "8",
             img: "img/U7.jpg",
             Name: "MR. & MRS. UDVEGA",
-            short: <>Mr Udvega - Tanmay Tripathy<br/>
-            Mrs Udvega - Bishwashri Roy<br/><br/></>
+            short: <>Mr Udvega - <b>Tanmay Tripathy</b><br/>
+            Mrs Udvega - <b>Bishwashri Roy</b><br/><br/></>
         },
         {
             index: "9",

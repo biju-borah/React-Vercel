@@ -79,9 +79,9 @@ function PowerSurge() {
             index: "10",
             img: "img/P7.jpg",
             Name: "DECRYPTO-FY",
-            short: <>1st- Team DAV(Kolli Vardhan,Kurumoju Deepak )<br />
-            2nd-Team Static(Aditya Bhura,Rohit Raj )<br />
-            3rd-Team Notalone(Kushagra Kumar,Dipesh Kumar Sinha )</>
+            short: <>1st-<b>Team DAV</b>(Kolli Vardhan,Kurumoju Deepak)<br />
+            2nd-<b>Team Static</b>(Aditya Bhura,Rohit Raj)<br />
+            3rd-<b>Team Notalone</b>(Kushagra Kumar,Dipesh Kumar Sinha)</>
         },
         {
             index: "11",
@@ -95,8 +95,8 @@ function PowerSurge() {
             index: "12",
             img: "img/P4.jpg",
             Name: "COD MOBILE",
-            short: <>1st) Team SOUL PURPOSE (Sunit Pathak, Rupankar Das, Seeni Lakshmi, Partha Pratim Patgiri, Akashdeep Singh, Gopireddy Nandeeshwar Reddy)<br/>
-            2nd) Team PHOENIX (Jyotiska Das, Abhilash Paul, Ayang Yangi, Laharjit Das)</>
+            short: <>1st) <b>Team SOUL PURPOSE</b> (Sunit Pathak, Rupankar Das, Seeni Lakshmi, Partha Pratim Patgiri, Akashdeep Singh, Gopireddy Nandeeshwar Reddy)<br/>
+            2nd) <b>Team PHOENIX</b> (Jyotiska Das, Abhilash Paul, Ayang Yangi, Laharjit Das)</>
         }
     ]
 
