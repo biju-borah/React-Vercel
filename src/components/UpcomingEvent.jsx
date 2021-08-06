@@ -10,7 +10,6 @@ function UpcomingEvent() {
     Swal.fire({
       title: 'Oops !',
       text: "This button will start functioning soon !",
-      type: 'info'
       })
     }
 
@@ -183,32 +182,32 @@ function UpcomingEvent() {
 
     return (
         <>
-        <div class="container-fluid px-0" style={{overflowX: "hidden"}}>
-        <div class="separator">
-            <div class="line"></div>
+        <div className="container-fluid px-0" style={{overflowX: "hidden"}}>
+        <div className="separator">
+            <div className="line"></div>
             <h2 style={{fontVariant: "small-caps"}}>Upcoming Events</h2>
-            <div class="line"></div>
+            <div className="line"></div>
         </div>
             {Events.map(events => {
                 return(
                     <div key={"Event" + events.index}>
-                        <div class="row no-gutters">
-                            <div class="col-md-1"></div>
-                            <div class="col-md-10" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
+                        <div className="row no-gutters">
+                            <div className="col-md-1"></div>
+                            <div className="col-md-10" style={{textAlign:"center",paddingTop:"5vh",overflowX:"hidden"}}>
                                 <div style={{padding:"0 30px"}}>
                                     <h3 style={{borderBottom: "2px solid black",fontVariant: "small-caps"}}>{events.heading}
                                     </h3>
                                 </div>
                             </div>
-                            <div class="col-md-1"></div>
+                            <div className="col-md-1"></div>
                         </div>
-                        <div class="row no-gutters">
-                            <div class="col-md-1"></div>
-                                <div class="col-md-4 d-flex justify-content-center align-items-center"
+                        <div className="row no-gutters">
+                            <div className="col-md-1"></div>
+                                <div className="col-md-4 d-flex justify-content-center align-items-center"
                                 style={{textAlign:"center",padding:"30px"}}>
-                                <img class="img-fluid" style={{borderRadius: "5%"}} src={events.image} alt="Electra"/>
+                                <img className="img-fluid" style={{borderRadius: "5%"}} src={events.image} alt="Electra"/>
                             </div>
-                        <div class="col-md-6 mt-lg-3 mt-0" style={{textAlign:"center",overflowX:"hidden",alignSelf: "center"}}>
+                        <div className="col-md-6 mt-lg-3 mt-0" style={{textAlign:"center",overflowX:"hidden",alignSelf: "center"}}>
                             <p style={{textAlign:"justify",padding:"0 30px",fontSize:"1rem"}}>
                             {events.short}
                             </p>
@@ -222,7 +221,7 @@ function UpcomingEvent() {
                                         Read more
                             </button>
                         </div>
-                        <div class="col-md-1"></div>
+                        <div className="col-md-1"></div>
                         </div>
                         <div
                                 className="row no-gutters"
