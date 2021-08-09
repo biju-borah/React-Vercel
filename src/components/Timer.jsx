@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react'; //? React for the react frag
 import "./Timer.css";
 
 //! Date Format : Year, Month(0-11), Date, Hrs, Mins, Secs, Millisecs
-let timeTo = new Date(2021, 7, 9, 0, 0, 0, 0);
+let timeTo = new Date(2021, 7, 15, 0, 0, 0, 0);
 
 let timeLimit = Math.floor( timeTo / 1000);
 
@@ -61,7 +61,7 @@ const Timer = () => {
     <div className="home-sec" id="apply" style={{paddingTop:"0px"}}>
         <div className="timer-heading"
           style={{display: "flex",justifyContent: "center",alignItems: "center", width: "100%",backgroundColor: "#080808",height: "10vh"}}>
-            <h2 style={{fontVariant:"small-caps",color: "white",fontWeight:"bold"}}>Electra Blitz Surge starts on <span className="bold">9/8/2021</span></h2>
+            <h2 style={{fontVariant:"small-caps",color: "white",fontWeight:"bold"}}>Electra Blitz Surge ends on <span className="bold">15/8/2021</span></h2>
         </div>
         <div id="timer">
           {/* {display.length === 4 && <div className="timer-limit">NITS Junior MUN starts on <span className="bold">{timeTo.toLocaleString().substring(0, 10) }</span> !</div>} */}
