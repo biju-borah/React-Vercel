@@ -64,9 +64,6 @@ const Timer = () => {
             <h2 style={{fontVariant:"small-caps",color: "white",fontWeight:"bold"}}>Electra Blitz Surge ends on <span className="bold">15/8/2021</span></h2>
         </div>
         <div id="timer">
-          {/* {display.length === 4 && <div className="timer-limit">NITS Junior MUN starts on <span className="bold">{timeTo.toLocaleString().substring(0, 10) }</span> !</div>} */}
-          {/* If display.length = 4 => Display Timer
-              If display.length = 1 => Display Coming Soon */}
           {display.length === 4 && display.map((interval, index) => {
             return(
               <React.Fragment key={index}>
@@ -80,12 +77,6 @@ const Timer = () => {
               </React.Fragment>
               )
           })}
-
-          {display.length === 1 &&
-            <div className="coming-soon">
-              Applications Out Soon!
-            </div>
-          }
 
         </div>
     </div>
